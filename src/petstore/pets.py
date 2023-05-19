@@ -28,6 +28,7 @@ class Pets:
         
         url = base_url.removesuffix('/') + '/pets'
         headers = {}
+        headers['Accept'] = 'application/json'
         headers['user-agent'] = f'speakeasy-sdk/{self._language} {self._sdk_version} {self._gen_version}'
         
         client = self._client
@@ -54,6 +55,7 @@ class Pets:
         url = base_url.removesuffix('/') + '/pets'
         headers = {}
         query_params = utils.get_query_params(operations.ListPetsRequest, request)
+        headers['Accept'] = 'application/json;q=1, application/json;q=0'
         headers['user-agent'] = f'speakeasy-sdk/{self._language} {self._sdk_version} {self._gen_version}'
         
         client = self._client
@@ -64,6 +66,8 @@ class Pets:
         res = operations.ListPetsResponse(status_code=http_res.status_code, content_type=content_type, raw_response=http_res)
         
         if http_res.status_code == 200:
+            res.headers = http_res.headers
+            
             if utils.match_content_type(content_type, 'application/json'):
                 out = utils.unmarshal_json(http_res.text, Optional[list[shared.Pet]])
                 res.pets = out
@@ -81,6 +85,7 @@ class Pets:
         
         url = utils.generate_url(operations.ShowPetByIDRequest, base_url, '/pets/{petId}', request)
         headers = {}
+        headers['Accept'] = 'application/json;q=1, application/json;q=0'
         headers['user-agent'] = f'speakeasy-sdk/{self._language} {self._sdk_version} {self._gen_version}'
         
         client = self._client

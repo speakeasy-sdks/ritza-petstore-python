@@ -22,6 +22,7 @@ class ListPetsResponse:
     status_code: int = dataclasses.field()
     error: Optional[shared_error.Error] = dataclasses.field(default=None)
     r"""unexpected error"""
+    headers: Optional[dict[str, list[str]]] = dataclasses.field(default=None)
     pets: Optional[list[shared_pet.Pet]] = dataclasses.field(default=None)
     r"""A paged array of pets"""
     raw_response: Optional[requests_http.Response] = dataclasses.field(default=None)
