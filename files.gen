@@ -1,3 +1,4 @@
+src/petstore/sdkconfiguration.py
 src/petstore/pets.py
 src/petstore/sdk.py
 .gitignore
