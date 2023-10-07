@@ -44,9 +44,7 @@ from sdk.models import operations
 
 s = sdk.SDK()
 
-req = operations.ListPetsRequest(
-    limit=21453,
-)
+req = operations.ListPetsRequest()
 
 res = s.pets.list_pets(req)
 
