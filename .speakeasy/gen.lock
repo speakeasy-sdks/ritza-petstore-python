@@ -4,15 +4,15 @@ management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
-  releaseVersion: 0.3.1
-  configChecksum: 967ab09f44a0540b5ed75215d59e8756
+  generationVersion: 2.228.1
+  releaseVersion: 0.3.2
+  configChecksum: 4538a283c9c437fc054aa941d051d696
   repoURL: https://github.com/speakeasy-sdks/ritza-petstore-python.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/ritza-petstore-python.git
 features:
   python:
-    core: 4.4.0
+    core: 4.4.1
     globalServerURLs: 2.82.1
 generatedFiles:
   - src/sdk/sdkconfiguration.py
