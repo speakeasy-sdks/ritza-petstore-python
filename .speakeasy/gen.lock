@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 1adc7569-899a-4e68-861b-3835f064659a
 management:
-  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.228.1
-  releaseVersion: 0.3.2
-  configChecksum: 4538a283c9c437fc054aa941d051d696
+  generationVersion: 2.230.3
+  releaseVersion: 0.3.3
+  configChecksum: 2deb775a08eeb631b85ee6c5c3f84879
   repoURL: https://github.com/speakeasy-sdks/ritza-petstore-python.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/ritza-petstore-python.git
