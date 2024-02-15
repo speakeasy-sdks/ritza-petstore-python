@@ -7,7 +7,7 @@ s = sdk.SDK()
 
 req = shared.Pet(
     id=596804,
-    name='string',
+    name='<value>',
 )
 
 res = s.pets.create_pets(req)
