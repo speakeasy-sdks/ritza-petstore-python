@@ -1,0 +1,55 @@
+lockVersion: 2.0.0
+id: 5b3cda94-8cbe-4155-a0e3-43078090b21c
+management:
+  docChecksum: 1bdb7a6f8bf3995d4b40475228403253
+  docVersion: 1.0.0
+  speakeasyVersion: 1.228.1
+  generationVersion: 2.292.0
+  releaseVersion: 0.1.0
+  configChecksum: 106e873d7bd372ea87263218db3393d9
+  repoURL: https://github.com/speakeasy-sdks/ritza-petstore-python.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/ritza-petstore-python.git
+features:
+  python:
+    core: 4.5.2
+    globalServerURLs: 2.82.2
+    responseFormat: 0.1.0
+generatedFiles:
+  - src/sdk/sdkconfiguration.py
+  - src/sdk/pets.py
+  - src/sdk/sdk.py
+  - py.typed
+  - pylintrc
+  - setup.py
+  - src/sdk/__init__.py
+  - src/sdk/utils/__init__.py
+  - src/sdk/utils/retries.py
+  - src/sdk/utils/utils.py
+  - src/sdk/models/errors/sdkerror.py
+  - tests/helpers.py
+  - src/sdk/models/operations/createpets.py
+  - src/sdk/models/operations/listpets.py
+  - src/sdk/models/operations/showpetbyid.py
+  - src/sdk/models/components/httpmetadata.py
+  - src/sdk/models/components/error.py
+  - src/sdk/models/components/pet.py
+  - src/sdk/models/__init__.py
+  - src/sdk/models/errors/__init__.py
+  - src/sdk/models/operations/__init__.py
+  - src/sdk/models/components/__init__.py
+  - docs/models/operations/createpetsresponse.md
+  - docs/models/operations/listpetsrequest.md
+  - docs/models/operations/listpetsresponse.md
+  - docs/models/operations/showpetbyidrequest.md
+  - docs/models/operations/showpetbyidresponse.md
+  - docs/models/components/httpmetadata.md
+  - docs/models/components/error.md
+  - docs/models/components/pet.md
+  - docs/sdks/sdk/README.md
+  - docs/sdks/pets/README.md
+  - USAGE.md
+  - .gitattributes
+  - src/sdk/_hooks/sdkhooks.py
+  - src/sdk/_hooks/types.py
+  - src/sdk/_hooks/__init__.py
